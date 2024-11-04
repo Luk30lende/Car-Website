@@ -742,6 +742,23 @@ img {
 }
 
 /*=============== LOGOS ===============*/
+.logos__img{
+  width: 40px;
+  opacity: .4s;
+  transition: .3s;
+}
+
+.logos__container{
+  grid-template-columns: repeat(3, max-content);
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+  padding-bottom: 32px;
+}
+
+.logos__img:hover{
+  opacity: 1;
+}
 
 /*=============== FOOTER ===============*/
 
