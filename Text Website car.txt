@@ -88,24 +88,24 @@ Featured Luxury Cars
 .featured__title | .featured__subtitle | .featured__price
 Tesla
 Model X
-$98,900
-
-Tesla
-Model 3
-$45,900
-
-Audi
-E-tron
-$175,900
-
-Porsche
-Boxster 987
-$126,900
 
 
-Porsche
-Panamera
-$126,900
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ========== OFFER ==========
 .section__title
