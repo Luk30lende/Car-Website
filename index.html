@@ -34,9 +34,9 @@
         </a>
 
         <div class="nav__menu" id="nav-menu">
-          <ul class="class_list">
+          <ul class="nav__list">
             <li class="nav__item">
-              <a href="#home" class="nav__link">Home</a>
+              <a href="#home" class="nav__link active-link">Home</a>
             </li>
             <li class="nav__item">
               <a href="#about" class="nav__link">About</a>
@@ -49,6 +49,7 @@
             </li>
           </ul>
 
+          <!-- Close Buttom -->
           <div class="nav__close" id="nav-close">
             <i class="ri-close-line"></i>
           </div>
@@ -298,7 +299,7 @@
         </h2>
 
         <div class="features__container container grid">
-          <div class="features__">
+          <div class="features__group">
             <img src="assets/img/features.png" alt="image" class="features__img">
 
             <div class="features__card features__card-1">
@@ -352,7 +353,7 @@
           </ul>
 
           <div class="featured__content grid">
-            <article class="featured__card mix tesla>
+            <article class="featured__card mix tesla">
               <div class="shape shape__smaller"></div>
 
               <h1 class="featured__title">Tesla</h1>
@@ -400,7 +401,7 @@
               </button>
             </article>
 
-            <article class="featured__card mix porsche>
+            <article class="featured__card mix porsche">
               <div class="shape shape__smaller"></div>
 
               <h1 class="featured__title">Porsche</h1>
@@ -416,7 +417,7 @@
               </button>
             </article>
 
-            <article class="featured__card mix porsche>
+            <article class="featured__card mix porsche">
               <div class="shape shape__smaller"></div>
 
               <h1 class="featured__title">Porsche</h1>
@@ -445,15 +446,18 @@
               Do You Want To Receive <br> Special Offers?
             </h2>
   
-            <p class="offer__desc">
+            <p class="offer__description">
               Be the first to receive all the information about our 
               products and new cars by email by subscribing to our 
               mailing list.
             </p>
   
-            <a href="#" class="button">Subscribe Now</a>
+            <a href="#" class="button">
+              Subscribe Now
+            </a>
           </div>
-            <img src="assets/img/offer.png" alt="" class="offer__img">
+
+          <img src="assets/img/offer.png" alt="" class="offer__img">
         </div>
       </section>
 
@@ -461,22 +465,22 @@
       <section class="logos section">
         <div class="logos__container container grid">
           <div class="logos__content">
-            <img src="assets/img/logo1.png" alt="" class="logos">
+            <img src="assets/img/logo1.png" alt="" class="logos__img">
           </div>
           <div class="logos__content">
-            <img src="assets/img/logo2.png" alt="" class="logos">
+            <img src="assets/img/logo2.png" alt="" class="logos__img">
           </div>
           <div class="logos__content">
-            <img src="assets/img/logo3.png" alt="" class="logos">
+            <img src="assets/img/logo3.png" alt="" class="logos__img">
           </div>
           <div class="logos__content">
-            <img src="assets/img/logo4.png" alt="" class="logos">
+            <img src="assets/img/logo4.png" alt="" class="logos__img">
           </div>
           <div class="logos__content">
-            <img src="assets/img/logo5.png" alt="" class="logos">
+            <img src="assets/img/logo5.png" alt="" class="logos__img">
           </div>
           <div class="logos__content">
-            <img src="assets/img/logo6.png" alt="" class="logos">
+            <img src="assets/img/logo6.png" alt="" class="logos__img">
           </div>
         </div>
       </section>
@@ -551,6 +555,9 @@
     </footer>
 
     <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scoll-up">
+      <i class="ri-arrow-up-line"></i>
+    </a>
 
     <!--=============== SCROLL REVEAL ===============-->
     <script src="https://unpkg.com/scrollreveal"></script>
@@ -559,7 +566,8 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <!--=============== MIXITUP JS ===============-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+    <!-- <script src="assets/js/mixitup.min.js"></script> -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.js"></script>
 
     <!--=============== MAIN JS ===============-->
     <script src="assets/js/main.js"></script>
