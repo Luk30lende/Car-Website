@@ -761,6 +761,88 @@ img {
 }
 
 /*=============== FOOTER ===============*/
+.footer{
+  position: relative;
+  overflow: hidden;
+}
+
+.footer .shape__big, .footer .shape__small{
+  position: absolute;
+}
+
+.footer .shape__big{
+  width: 300px;
+  height: 300px;
+  left: -192px;
+  top: 96px;
+}
+
+.footer .shape__small{
+  right: -208px;
+  bottom: -96px;
+}
+
+.footer__container{
+  row-gap: 40px;
+  position: relative;
+}
+
+.footer__logo{
+  display: inline-flex;
+  align-items: center;
+  column-gap: 4px;
+  color: var(--title-color);
+  font-size: var(--h2-font-size);
+  font-weight: var(--font-semi-bold);
+  margin-bottom: 20px;
+  transition: .3s;
+}
+
+.footer__logo i{
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.footer__logo:hover{
+  color: var(--first-color);
+}
+
+.footer__title{
+  font-size: var(--h3-font-size);
+  margin-bottom: 20px;
+}
+
+.footer__links{
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.footer__link, .footer__social-link{
+  color: var(--text-color);
+  transition: .3s;
+}
+
+.footer__link:hover, .footer__social-link:hover{
+  color: var(--title-color);
+}
+
+.footer__social{
+  display: flex;
+  column-gap: 24px;
+}
+
+.footer__social-link{
+  font-size: 20px;
+}
+
+.footer__copy{
+  display: block;
+  margin-top: 72px;
+  text-align: center;
+  font-size: var(--smaller-font-size);
+  color: var(--text-color);
+}
 
 /*=============== SCROLL BAR ===============*/
 
