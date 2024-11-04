@@ -90,23 +90,6 @@ Tesla
 Model X
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ========== OFFER ==========
 .section__title
 Do You Want To Receive <br> Special Offers?
