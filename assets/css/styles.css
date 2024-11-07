@@ -890,7 +890,251 @@ img {
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
+@media screen and (max-width: 320px) {
+  .container{
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .home__car{
+    column-gap: 32px;
+  }
+
+  .about__card{
+    width: 150px;
+  }
+
+  .offer__container{
+    grid-template-rows: max-content 180px;
+  }
+  .offer__img{
+    width: 340px;
+  }
+
+  .logos__container{
+    gap: 40px;
+  }
+}
 
 /* For medium devices */
+@media screen and (min-width: 576px) {
+  .about__group{
+    width: 350px;
+    justify-self: center;
+  }
+
+  .features__map{
+    left: 0;
+    right: 0;
+  }
+
+  .featured__content{
+    grid-template-columns: repeat(2, 228px);
+  }
+
+  .offer__container{
+    grid-template-rows: initial;
+    grid-template-columns: .5fr;
+    justify-content: center;
+  }
+  .offer__img{
+    position: relative;
+    bottom: initial;
+    right: initial;
+  }
+  .offer__data{
+    margin-bottom: 64px;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .section{
+    padding: 112px 0 32px;
+  }
+
+  .nav{
+    height: calc(var(--header-height) + 24px);
+  }
+  .nav__toggle, .nav__close{
+    display: none;
+  }
+  .nav__list{
+    flex-direction: row;
+    column-gap: 48px;
+    padding-top: 0;
+  }
+  .nav__link{
+    font-size: var(--normal-font-size);
+    text-transform: initial;
+  }
+
+  .about__container{
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .logos__container{
+    gap: 64px 128px;
+  }
+
+  .footer__container{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 
 /* For large devices */
+@media screen and (min-width: 1040px) {
+  .container{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .shape__big{
+    width: 500px;
+    height: 500px;
+  }
+  .shape__small{
+    width: 400px;
+    height: 400px;
+  }
+
+  .home__container{
+    padding-top: 32px;
+  }
+  .home__img{
+    width: 380px;
+  }
+  .home__car{
+    column-gap: 112px;
+  }
+  .home__car-icon{
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+
+  .about__container{
+    column-gap: 96px;
+    align-items: center;
+  }
+  .about__group, .about__img{
+    width: 480px;
+  }
+  .about__card{
+    width: 198px;
+    padding: 16px 20px;
+  }
+  .about__description{
+    padding-right: 64px;
+    margin-bottom: 48px;
+  }
+
+  .popular__container{
+    width: 875px;
+    padding-top: 48px;
+  }
+  .popular__card{
+    width: 258px;
+    border-radius: 20px;
+    margin-bottom: 80px;
+  }
+  .popular__img{
+    width: 180px;
+    margin: 12px 0 20px 32px;
+  }
+
+  .features__container{
+    padding: 32px 0 48px;
+  }
+  .features__img{
+    width: 200px;
+  }
+  .features__card{
+    width: 127px;
+    padding: 12px 40px;
+  }
+  .features__card-1{
+    left: -16px;
+  }
+  .features__card-2{
+    right: -40px;
+  }
+  .features__card-3{
+    bottom: 112px;
+    left: -16px;
+  }
+  .features__map{
+    width: 650px;
+    top: 156px;
+  }
+
+  .featured__container{
+    padding-bottom: 40px;
+  }
+  .featured__filters{
+    column-gap: 32px;
+    margin-bottom: 72px;
+  }
+  .featured__item{
+    width: 52px;
+    height: 52px;
+  }
+  .featured__item img{
+    width: 32px;
+  }
+  .featured__content{
+    grid-template-columns: repeat(3, 248px);
+    gap: 64px;
+  }
+
+  .offer__container{
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 80px;
+    align-items: center;
+    padding-bottom: 32px;
+  }
+  .offer__data, .offer__title{
+    text-align: initial;
+  }
+  .offer__data{
+    margin-bottom: 0;
+  }
+  .offer__description{
+    margin-right: 96px;
+  }
+  .offer__img{
+    width: 450px;
+  }
+
+  .logos__container{
+    grid-template-columns: repeat(6, max-content);
+  }
+  .logos__img{
+    width: 50px;
+  }
+
+  .footer__container{
+    grid-template-columns: repeat(4, max-content);
+    justify-content: space-between;
+  }
+  .footer__logo{
+    column-gap: 8px;
+  }
+  .footer__logo i{
+    font-size: 32px;
+  }
+  .footer__title{
+    margin-bottom: 24px;
+  }
+  .footer__links{
+    row-gap: 12px;
+  }
+  .footer__social-link{
+    font-size: 24px;
+  }
+  .footer__copy{
+    margin-top: 128px;
+  }
+
+  .scrollup{
+    right: 48px;
+  }
+}
