@@ -23,4 +23,34 @@ This is a website built to showcase a range of electric cars, designed to be vis
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/yourusername/electric-car-website.git
+   git clone https://github.com/Luk30lende/Electric-Car-Website.git
+2. Navigate into the project directory:
+   ```bash
+   cd electric-car-website
+3. Open the index.html file in your web browser to view the website.
+
+## Contributing
+
+Feel free to fork this project and submit pull requests for improvements. If you'd like to contribute, follow these steps:
+
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature-branch
+3. Commit your changes:
+   ```bash
+   git commit -m 'Add new feature'
+4. Push to the branch:
+   ```bash
+   git push origin feature-branch
+5. Open a pull request
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+- [Remix Icons](https://remixicon.com/) for providing high-quality icons.
+- [Swiper.js](https://swiperjs.com/) for the interactive slider functionality.
+- [MixItUp](https://www.kunkalabs.com/mixitup/) for the filtering library.
