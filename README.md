@@ -2,6 +2,13 @@
 
 This is a website built to showcase a range of electric cars, designed to be visually appealing and interactive. The website features smooth animations, interactive sliders, and a clean, modern layout.
 
+## Screenshots
+
+Here are some screenshots of the electric car website:
+
+![Homepage](assets/img/Screenshots/127.0.0.1_5500_index.html.png)
+
+
 ## Features
 
 - **Responsive Design**: The website adapts seamlessly to different screen sizes, ensuring a great experience on both desktop and mobile devices.
